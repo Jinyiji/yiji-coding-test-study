@@ -1,6 +1,6 @@
 package progarmmers;
 
-class 짝수와홀수 {
+public class 짝수와홀수 {
     public String 짝수와홀수(int num) { // 정수 num
         String answer = "";
         if (num % 2 == 0) answer = "Even"; // 나머지 산술 연산자 사용, 짝수일 경우 (0 포함) Even 반환
